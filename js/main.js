@@ -50,13 +50,13 @@ function convertIt(n, a){
 
 // Problem #213
 
-/*
+
 let arr = [7, 11, 17, 23, 31, 37];
 let newArr = [];
 
-console.log(getPalindromeNumbersAsArray(arr));
+console.log(getPrimeNumbersAsArray(arr));
 
-function getPalindromeNumbersAsArray(arr){
+function getPrimeNumbersAsArray(arr){
   for(let i = 0; i < arr.length; i++){
     let check = 0;
     for(let j = 2; j < arr[i]; j++){
@@ -70,7 +70,7 @@ function getPalindromeNumbersAsArray(arr){
   }
   return newArr;
 }
-*/
+
 
 // Problem #214
 
