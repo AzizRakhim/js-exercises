@@ -51,7 +51,7 @@ function convertIt(n, a){
 // Problem #213
 
 
-let arr = [7, 11, 17, 23, 31, 37];
+let arr = [1, 4, 5, 7, 12];
 let newArr = [];
 
 console.log(getPrimeNumbersAsArray(arr));
@@ -64,7 +64,7 @@ function getPrimeNumbersAsArray(arr){
         check++;
       }
     }
-    if(check == 0){
+    if(check == 0 && i != 0){
       newArr.push(arr[i]);
     }
   }
