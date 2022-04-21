@@ -50,7 +50,7 @@ function convertIt(n, a){
 
 // Problem #213
 
-
+/*
 let arr = [1, 4, 5, 7, 12];
 let newArr = [];
 
@@ -70,7 +70,7 @@ function getPrimeNumbersAsArray(arr){
   }
   return newArr;
 }
-
+*/
 
 // Problem #214
 
