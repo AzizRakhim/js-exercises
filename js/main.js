@@ -77,9 +77,7 @@ function getPrimeNumbersAsArray(arr){
 /*
 let arr = [7, 11, 7, 23, 31, 37];
 let newArr = [];
-
 console.log(getPalindromeNumbersAsArray(arr));
-
 function getPalindromeNumbersAsArray(arr){
   for(let i = 0; i < arr.length; i++){
     let v = isPalindromeNumber(String(arr[i]));
@@ -89,8 +87,6 @@ function getPalindromeNumbersAsArray(arr){
   }
   return newArr;
 }
-
-
 function isPalindromeNumber(numString){
   let c = numString.length - 1;
   let check = true;
